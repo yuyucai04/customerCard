@@ -10,7 +10,7 @@
   <body>
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
-        <a class="navbar-brand" href="#">Welcome to Customer Card Management Page</a>
+          <p class="mb-2 px-2 text-light">Welcome to Customer Card Managment Page</p>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -26,25 +26,28 @@
 
         <header class="bg-light text-center py-3 px-5">
           <div class="container-fluid ">
-            <div class="row mt-3 row-gap-3 border-primary shadow">
-              <div class="col-md-6 col-sm-12 ">
-                <div class="card bg-light text-center p-5">
-                 <img src="./starbuck.jpg" 
-                 alt="Logo image" height="200px" width="300px" />
+            <div class="row mt-3 row-gap-3">
+              <div class="col-md-6 col-sm-12">
+                <div class="bg-light p-3 box-border"
+                     style="display: flex; align-items: center; flex-wrap: wrap;" >
+                 <img src="./logo.jpg" 
+                 alt="Logo image" height="200px" width="200px" style="margin-right: 80px;"/>
+                 <img src="./logo2.jpg" 
+                 alt="Logo image" height="200px" width="200px" />
                 </div>
               </div>
               <div class="col-md-6 col-sm-12">
-                <div class="card bg-light text-center p-5">
-                  <h2 class="text-start">Summary</h2>
-                  <p class="text-start">Total Customers   :</p>
-                  <p class="text-start">Total Card Issued :</p>
+                <div class="card bg-light text-center p-5 box-border">
+                  <h2 class="text-start mb-4">Summary</h2>
+                  <p class="text-start">Total Customers   : 105</p>
+                  <p class="text-start">Total Card Issued : 100</p>
                 </div>
               </div>
             </div>
          </div>
         </header>
 
-        <section id="cust_search" class="py-3 mb-3 border border-primary rounded">
+        <section id="cust_search" class="py-3 mb-3 box-border">
           <div class="container-fluid">
             <h3 class="mb-3 text-center">Customer Search</h3>
             <form action="index2.html" method="POST">
@@ -56,7 +59,7 @@
                   <label for="custname" class="form-label">Customer Name</label>
                   <input type="text" name="custname" id="custname" placeholder="Enter Customer Name" class="form-control">
               </div>
-              <button type="submit" class="btn btn-outline-dark bg-warning-subtle">Enter</button>
+              <button type="submit" class="btn btn-outline-dark bg-warning-subtle custom-button">Enter</button>
               </form>
          </div>
         </section>

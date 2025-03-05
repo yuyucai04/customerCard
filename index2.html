@@ -10,7 +10,7 @@
   <body>
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
-        <a class="navbar-brand" href="#">Welcome to Customer Card Management Page</a>
+          <p class="mb-2 px-2 text-light">Welcome to Customer Card Managment Page</p>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,19 +29,23 @@
          </div>
         </header>
 
-        <section id="cust_detail" class="py-3 mb-3 border border-primary rounded">
+        <section id="cust_detail" class="py-3 mb-3 box-border">
             <div class="container-fluid">
               <h3 class="mb-3 text-start custom-header">Customer Detail</h3>
                 <div class="mb-3">
-                    <p id="custdtlno"> Customer No    :  </p>   
+                    <p id="custdtlno" style="font-weight: bold"> Customer No :  
+                      <span class="text-muted" id="vcustno">123456</span>
+                    </p>   
                 </div>
                 <div class="mb-3">
-                    <p id="custdtlname"> Customer Name:  </p>   
+                    <p id="custdtlname" style="font-weight: bold"> Customer Name : 
+                      <span class="text-muted" id="vcustname">ABCDEF</span> 
+                    </p>   
                 </div>
            </div>
           </section>
 
-          <section id="card_detail" class="py-3 mb-3 border border-primary rounded">
+          <section id="card_detail" class="py-3 mb-3 box-border">
             <div class="container-fluid">
               <h3 class="mb-3 text-start custom-header">Card Detail</h3>
               <table class="table table-striped table-hover text-center table-bordered">
