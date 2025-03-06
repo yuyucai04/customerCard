@@ -18,8 +18,8 @@
             <!-- if you want to push the navbar to the end, add ms-auto -->
            <div class="navbar-nav ms-auto">
              <a class="nav-link active" aria-current="page" href="#">Home</a>
-             <a class="nav-link" href="#">Add Customer</a>
-             <a class="nav-link" href="#">Report</a>
+             <a class="nav-link" href="index3.html">Add Customer</a>
+             <a class="nav-link" href="index4.html">Report</a>
            </div>
          </div>
         </nav>
@@ -50,7 +50,7 @@
         <section id="cust_search" class="py-3 mb-3 box-border">
           <div class="container-fluid">
             <h3 class="mb-3 text-center">Customer Search</h3>
-            <form action="index2.html" method="POST">
+            <!-- <form id="myForm" action="index2.html" method="POST"> -->
               <div class="mb-3">
                   <label for="custno" class="form-label">Customer No</label>
                   <input type="text" name="custno" id="custno" placeholder="Enter Customer No" class="form-control">
@@ -58,9 +58,9 @@
               <div class="mb-3">
                   <label for="custname" class="form-label">Customer Name</label>
                   <input type="text" name="custname" id="custname" placeholder="Enter Customer Name" class="form-control">
-              </div>
-              <button type="submit" class="btn btn-outline-dark bg-warning-subtle custom-button">Enter</button>
-              </form>
+              </div>-
+              <a type="submit" id="search_custbtn" class="btn btn-outline-dark bg-warning-subtle custombutton">Enter</a>
+              <!-- </form> -->
          </div>
         </section>
     </div>
@@ -69,5 +69,6 @@
       <p class="text-end">Copyright &copy; 2025. All right reserved</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>

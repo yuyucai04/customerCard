@@ -1,6 +1,6 @@
 /* custom header for index2.html*/
 .custom-header {
-  color: #0056b3;  /* Blue color */
+  color: steelblue;  /* Blue color */
   font-size: 20px;
   letter-spacing: 1px;
   text-decoration: underline;
@@ -9,11 +9,23 @@
 
 /* Add border for box*/
 .box-border {
-  border: 2px solid #007bff; 
+  border: 2px solid slateblue; 
   border-radius: 10px;
 }
 
 .custom-button:hover {
   color: #003366; /* Darker color on hover */
   cursor: pointer; /* Change cursor to pointer to indicate interaction */
+}
+
+
+/* Add tooltip for page4 */
+.tooltip{
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  /*This will be used later to show the tooltip on the chart*/
+  position:absolute;
+  /*hide the tooltip for a while*/
+  display:none;
 }
